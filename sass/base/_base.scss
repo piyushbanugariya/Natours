@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $dark-color;
+    padding: 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+p {
+    font-size: 1.7rem;
+    line-height: 1.7;
+}
+
+ul{
+    list-style: none;
+}
+
+
+::-moz-selection { 
+    background: $primary-color;
+  }
+  
+::selection {
+    background: $primary-color;
+  }
